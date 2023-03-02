@@ -2,6 +2,7 @@ import React from 'react'
 import CarouselAntDesign from './CarouselAntDesign'
 import AboutAntDesign from './AboutAntDesign'
 import CardAntDesign from './CardAntDesign'
+import ModelAntDesign from './ModelAntDesign'
 
 function HeroAntDesign() {
   return (
@@ -10,6 +11,7 @@ function HeroAntDesign() {
             <CarouselAntDesign />
             <AboutAntDesign />
             <CardAntDesign />
+            <ModelAntDesign />
         </div>
     </>
   )
