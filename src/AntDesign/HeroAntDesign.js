@@ -3,6 +3,7 @@ import CarouselAntDesign from './CarouselAntDesign'
 import AboutAntDesign from './AboutAntDesign'
 import CardAntDesign from './CardAntDesign'
 import ModelAntDesign from './ModelAntDesign'
+import CollapseAntDesign from './CollapseAntDesign'
 
 function HeroAntDesign() {
   return (
@@ -12,6 +13,7 @@ function HeroAntDesign() {
             <AboutAntDesign />
             <CardAntDesign />
             <ModelAntDesign />
+            <CollapseAntDesign />
         </div>
     </>
   )
