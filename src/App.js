@@ -1,11 +1,10 @@
 import React from 'react'
-import ButtonAntDesign from './AntDesign/ButtonAntDesign'
-import HeaderAntDesign from './AntDesign/HeaderAntDesign'
+import LayoutAntDesign from './AntDesign/LayoutAntDesign';
+
 function App() {
   return (
     <>
-      <ButtonAntDesign />
-      <HeaderAntDesign />
+      <LayoutAntDesign />
     </>
   )
 }
