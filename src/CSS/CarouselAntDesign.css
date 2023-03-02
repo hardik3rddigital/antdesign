@@ -1,0 +1,86 @@
+.HeroSection .content {
+  height: 90vh;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Poppins" !important;
+  position: relative;
+}
+
+.HeroSection .content:before {
+  content: "";
+  height: 90vh;
+  width: 100vw;
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.HeroSection .content .maxwidth {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  margin-top: 120px;
+}
+
+.HeroSection .content .maxwidth .CarouselTitle {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.HeroSection .content .maxwidth .CarouselDescription {
+  font-size: 24px;
+}
+
+.HeroSection {
+  position: relative;
+}
+
+.HeroSection .CarouselButton {
+}
+
+.HeroSection .handlePrev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+  font-size: 19px;
+  transition: all 0.4s ease-in-out;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  margin-left: 20px;
+}
+
+.HeroSection .handleNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+  font-size: 19px;
+  transition: all 0.4s ease-in-out;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  margin-right: 20px;
+  right: 0;
+}
