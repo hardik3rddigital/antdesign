@@ -6,7 +6,7 @@ import "../CSS/CarouselAntDesign.css";
 function CarouselAntDesign() {
   const carousel = useRef();
   const onChange = (currentSlide) => {
-    console.log(currentSlide);
+    //console.log(currentSlide);
   };
 
   const handlePrev = () => carousel.current.prev();
@@ -41,8 +41,12 @@ function CarouselAntDesign() {
           })}
         </Carousel>
         <div className="CarouselButton">
-          <Button onClick={handlePrev} className="handlePrev"><i class="fa fa-angle-left"></i></Button>
-          <Button onClick={handleNext} className="handleNext"><i class="fa fa-angle-right"></i></Button>
+          <Button onClick={handlePrev} className="handlePrev">
+            <i className="fa fa-angle-left"></i>
+          </Button>
+          <Button onClick={handleNext} className="handleNext">
+            <i className="fa fa-angle-right"></i>
+          </Button>
         </div>
       </div>
     </>
