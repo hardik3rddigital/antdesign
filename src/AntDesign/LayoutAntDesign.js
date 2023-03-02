@@ -6,6 +6,7 @@ import { Layout } from "antd";
 import HeaderAntDesign from "./HeaderAntDesign";
 import HeroAntDesign from "./HeroAntDesign";
 
+
 const { Header,Content } = Layout;
 
 function LayoutAntDesign() {

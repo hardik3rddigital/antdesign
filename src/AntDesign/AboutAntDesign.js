@@ -5,7 +5,7 @@ import AboutDataSingleAbout from "../Json/AboutData";
 
 function AboutAntDesign() {
   return (
-    <div className="AboutAntDesign" style={{ padding: "60px" }}>
+    <div className="AboutAntDesign" style={{ padding: "60px 0 0 0" }}>
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>About Us</h2>
@@ -19,7 +19,7 @@ function AboutAntDesign() {
           presence allows us to work quickly and effectively with clients.
         </div>
 
-        <div className="" style={{ padding: "30px 0" }}>
+        <div className="" style={{ padding: "30px 0 0px 0" }}>
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             {AboutDataSingleAbout.map((value, index) => (
               <Col xs={24} sm={8} md={12} lg={8} xl={8} key={index}>
