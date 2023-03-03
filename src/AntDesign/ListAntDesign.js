@@ -29,7 +29,7 @@ function ListAntDesign() {
       <div className="container-fluid">
         <div className="" style={{ padding: "30px 0" }}>
           <div className="titleHolder">
-            <h2>Frequently Asked Questions</h2>
+            <h2>List</h2>
           </div>
           <div className="">
             <List

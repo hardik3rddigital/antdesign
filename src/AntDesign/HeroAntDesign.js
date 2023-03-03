@@ -5,6 +5,7 @@ import CardAntDesign from './CardAntDesign'
 import ModelAntDesign from './ModelAntDesign'
 import CollapseAntDesign from './CollapseAntDesign'
 import ListAntDesign from './ListAntDesign'
+import FormAntDesign from './FormAntDesign'
 
 function HeroAntDesign() {
   return (
@@ -16,6 +17,7 @@ function HeroAntDesign() {
             <ModelAntDesign />
             <CollapseAntDesign />
             <ListAntDesign/>
+            <FormAntDesign />
         </div>
     </>
   )

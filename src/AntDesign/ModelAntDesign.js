@@ -29,7 +29,7 @@ function ModelAntDesign() {
             <div className="" style={{ textAlign: "center" }}>
               <Button type="text" onClick={showModal} size={"large"}>
                 <i
-                  class="fa fa-play-circle-o"
+                  className="fa fa-play-circle-o"
                   aria-hidden="true"
                   style={{ fontSize: "140px", color: "#ffffff" }}
                 ></i>
