@@ -1,0 +1,90 @@
+.FooterAntDesign {
+  font-family: "Poppins" !important;
+  background: #001529;
+}
+
+.FooterAntDesign .backGround {
+  background: #001529;
+  color: #fff;
+  font-family: "Poppins" !important;
+}
+
+.FooterAntDesign .container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.FooterAntDesign .titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.FooterAntDesign .titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.FooterAntDesign .titleHolder:after {
+  transform: translateX(-50%);
+  content: "";
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.FooterAntDesign .footer .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.FooterAntDesign .footer .fa {
+  color: #1890ff;
+  font-size: 28px;
+  margin: 0 5px 0 0;
+}
+
+.FooterAntDesign .footer .logo a {
+  color: #fff;
+}
+
+.FooterAntDesign .footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 24px;
+}
+
+.FooterAntDesign .footer .socials li {
+  margin: 0 20px;
+}
+
+.FooterAntDesign .footer .socials a {
+  color: #fff;
+}
+
+.FooterAntDesign .footer .socials a:hover {
+  color: #1890ff;
+}
+
+.FooterAntDesign .footer .goTop:hover {
+  opacity: 0.7;
+}
+
+/* ant-fade-leave ant-fade-leave-active ant-fade fa fa-arrow-circle-up
+ant-fade-enter ant-fade-enter-active ant-fade fa fa-arrow-circle-up */
+
+.FooterAntDesign .ant-fade-leave-active {
+  display: none;
+}
+
+.FooterAntDesign .ant-fade-enter-active {
+}
