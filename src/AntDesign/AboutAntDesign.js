@@ -5,7 +5,11 @@ import AboutDataSingleAbout from "../Json/AboutData";
 
 function AboutAntDesign() {
   return (
-    <div className="AboutAntDesign" style={{ padding: "60px 0 0 0" }}>
+    <div
+      className="AboutAntDesign"
+      style={{ padding: "60px 0 0 0" }}
+      id="AboutAntDesign"
+    >
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>About Us</h2>

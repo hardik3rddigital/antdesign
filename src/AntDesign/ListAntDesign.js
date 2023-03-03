@@ -25,7 +25,11 @@ const data = [
 
 function ListAntDesign() {
   return (
-    <div className="ListAntDesign" style={{ margin: "30px 0" }}>
+    <div
+      className="ListAntDesign"
+      style={{ margin: "30px 0" }}
+      id="ListAntDesign"
+    >
       <div className="container-fluid">
         <div className="" style={{ padding: "30px 0" }}>
           <div className="titleHolder">
@@ -43,17 +47,17 @@ function ListAntDesign() {
                 xxl: 3,
               }}
               dataSource={data}
-              //   renderItem={(item) => (
-              //     <List.Item>
-              //       <Card title={item.title}>Card content</Card>
-              //     </List.Item>
-              //   )}
-            >
-              {data.map((value, index) => (
-                <List.Item key={index} >
-                  <Card title={value.title} >Card content</Card>
+              renderItem={(item) => (
+                <List.Item>
+                  <Card title={item.title}>Card content</Card>
                 </List.Item>
-              ))}
+              )}
+            >
+              {/* {data.map((value, index) => (
+                <List.Item key={index}>
+                  <Card title={value.title}>Card content</Card>
+                </List.Item>
+              ))} */}
             </List>
           </div>
         </div>

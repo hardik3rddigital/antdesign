@@ -19,7 +19,11 @@ function ModelAntDesign() {
 
   return (
     <>
-      <div className="ModelAntDesign" style={{ margin: "60px 0 0 0" }}>
+      <div
+        className="ModelAntDesign"
+        style={{ margin: "60px 0 0 0" }}
+        id="ModelAntDesign"
+      >
         <div className="container-fluid">
           <div className="" style={{ padding: "30px 0" }}>
             <div className="titleHolder">

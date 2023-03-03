@@ -13,7 +13,11 @@ function FormAntDesign() {
     console.log("Change:", e.target.value);
   };
   return (
-    <div className="FormAntDesign" style={{ margin: "30px 0" }}>
+    <div
+      className="FormAntDesign"
+      style={{ margin: "30px 0" }}
+      id="FormAntDesign"
+    >
       <div className="container-fluid">
         <div className="" style={{ padding: "30px 0" }}>
           <div className="titleHolder">
@@ -80,8 +84,8 @@ function FormAntDesign() {
               </Form.Item>
               <Form.Item name="message">
                 <TextArea
-                //   showCount
-                //   maxLength={100}
+                  //   showCount
+                  //   maxLength={100}
                   style={{ height: 120 }}
                   onChange={onChange}
                   placeholder="Message"
@@ -93,19 +97,21 @@ function FormAntDesign() {
                 </Form.Item>
               </Form.Item> */}
               <Form.Item
-        name="agreement"
-        valuePropName="checked"
-        rules={[
-          {
-            validator: (_, value) =>
-              value ? Promise.resolve() : Promise.reject(new Error('Should accept agreement')),
-          },
-        ]}
-      >
-        <Checkbox>
-          I have read the <a href="/">agreement</a>
-        </Checkbox>
-      </Form.Item>
+                name="agreement"
+                valuePropName="checked"
+                rules={[
+                  {
+                    validator: (_, value) =>
+                      value
+                        ? Promise.resolve()
+                        : Promise.reject(new Error("Should accept agreement")),
+                  },
+                ]}
+              >
+                <Checkbox>
+                  I have read the <a href="/">agreement</a>
+                </Checkbox>
+              </Form.Item>
 
               <Form.Item>
                 <Button

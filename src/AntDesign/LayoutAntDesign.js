@@ -21,7 +21,7 @@ function LayoutAntDesign() {
         </Content>
 
         <FooterAntDesign />
-      </Layout>      
+      </Layout>
     </>
   );
 }

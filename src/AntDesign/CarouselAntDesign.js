@@ -14,7 +14,7 @@ function CarouselAntDesign() {
 
   return (
     <>
-      <div className="HeroSection">
+      <div className="HeroSection" id="CarouselAntDesign">
         <Carousel
           afterChange={onChange}
           effect="scrollx"

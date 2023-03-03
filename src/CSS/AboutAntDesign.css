@@ -34,7 +34,7 @@
 .AboutDataSingleAbout {
   text-align: center;
   padding: 40px 16px 27px;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   position: relative;
   z-index: 1;
   font-family: "Poppins" !important;
@@ -80,10 +80,10 @@
 .AboutDataSingleAbout .AboutDataIcon i {
   font-size: 30px;
   line-height: 70px;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   color: #fff;
   width: 70px;
   height: 70px;
-  background-image: linear-gradient(to right,#16a2e8 0,#12d8fa 100%);
+  background-image: linear-gradient(to right, #16a2e8 0, #12d8fa 100%);
   border-radius: 50%;
 }
