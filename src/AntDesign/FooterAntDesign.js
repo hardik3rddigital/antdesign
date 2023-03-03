@@ -3,7 +3,7 @@ import React from "react";
 import "../CSS/FooterAntDesign.css";
 
 import { Layout } from "antd";
-import { BackTop } from "antd";
+import { FloatButton } from "antd";
 const { Footer } = Layout;
 
 function FooterAntDesign() {
@@ -53,9 +53,9 @@ function FooterAntDesign() {
                 </div>
                 <div className="ant-back-top" style={{ textAlign: "end" }}>
                   <div className>
-                    <BackTop className="goTop">
+                    <FloatButton.BackTop className="goTop">
                       <i className="fa fa-arrow-circle-up" />
-                    </BackTop>
+                    </FloatButton.BackTop>
                   </div>
                 </div>
               </div>
